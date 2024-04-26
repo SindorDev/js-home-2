@@ -1,4 +1,4 @@
-let result = prompt("Son kiriting");
+let result = Number(prompt("Son kiriting"));
 let random = Math.floor(Math.random() * 10);
 
 if(result == random) {
